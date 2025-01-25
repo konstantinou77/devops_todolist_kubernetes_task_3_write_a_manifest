@@ -14,6 +14,6 @@ kubectl port-forward pod/todoapp 8081:8080 -n todoapp
 
 # Using the busyboxplus:curl container to test:
 
-kubectl -n mateapp exec -it busybox -- sh
-curl <ip pod>:<port>
+kubectl -n todoapp exec -it busybox -- sh
+curl <ip pod>:<port
 
